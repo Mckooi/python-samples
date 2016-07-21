@@ -28,7 +28,10 @@ If profanity words are found, it will print "Profanity Alert!".
 
 # Sample 3: Use pure Python code to create entertainment center
 
-
+There are four files in sample-3 folder: (1) entertainment-center.py (2) media.py (2) fresh-tomatoes.py (4) fresh-tomatoes.html.
+- media.py provides class and function to manage media content
+- fresh-tomatoes.py consists of html web template and ability to create fresh_tomatoes.html file
+- entertainment-center.py gets media information from media.py and then use fresh-tomatoes.py to create fresh-tomatoes.html file. To check the output, open fresh-tomatoes.html in your browser and you will see list of video content. Click on any item, video clip will be played. To watch the video clip, make sure that your computer is connected to internet because its contents derive from youtube.
 
 
 # Sample 4: Use Python code to create SQL Alchemy database schema
